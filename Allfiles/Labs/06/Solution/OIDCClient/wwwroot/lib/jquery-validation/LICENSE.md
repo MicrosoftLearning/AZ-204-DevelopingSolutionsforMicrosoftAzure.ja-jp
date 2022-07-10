@@ -1,18 +1,22 @@
----
-ms.openlocfilehash: bdbc6941b03bb94cb6a1736ae833635f10c7f5aa
-ms.sourcegitcommit: d2d374fffa4fcbf92b9c4bdc9c9ecc470152e033
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "145884041"
----
-<a name="the-mit-license-mit"></a>MIT ライセンス (MIT)
+The MIT License (MIT)
 =====================
 
 Copyright Jörn Zaefferer
 
-以下に定める条件に従って、本ソフトウェアおよび関連文書ファイル (以下、"ソフトウェア") のコピーを取得したすべての人物に対して、ソフトウェアのコピーの使用、複製、修正、結合、発行、配布、サブライセンス、および/または販売する権利が含まれますが、これに限定されず、また、ソフトウェアが提供された相手がこれらを行うことを許諾する無制限の権利も含めて、本ソフトウェアを制限なしで扱う許諾を無償で与えます。
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-上記の著作権表示および本許諾表示をソフトウェアのすべてのコピーまたは主要な部分に記載されるものとします。
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-ソフトウェアは "現状のまま" で提供され、明示であるか暗黙であるかを問わず、あらゆる保証はないものとします。ここでいう保証とは、商品性、特定の目的への適合性、および権利非侵害についての保証も含みますが、それに限定されるものではありません。 作者または著作権者は、契約行為、不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、損害、その他の義務について何らの責任も負わないものとします。
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
