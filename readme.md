@@ -1,21 +1,20 @@
 ---
-ms.openlocfilehash: 40d663462e7e48bf5baeb118e1da99d4ebf89c86
-ms.sourcegitcommit: b3c9969e988713afd5bfcfa551d5986d914edf2e
+ms.openlocfilehash: 9ba844d4c78c396a669ae0499a7bc1d98aeb72b2
+ms.sourcegitcommit: 72f4872bf8c3288482a766f6b2482d2dbeeb39cf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2022
-ms.locfileid: "146565022"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "147541884"
 ---
 # <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204: Microsoft Azure 向けのソリューションの開発
 
-**すべてのラボの手順は、2021 年 10 月 15 日に更新されました。** 現在未解決のすべての問題と PR を終了し、全員に新しい手順を確認するように促し、今後は新しい変更を送信します。
+**ラボの指示、ダウンロード可能なコード、VM は 2022 年 8 月 5 日に .NET 6 に更新されました。Microsoft は、この更新プログラムに関連する問題を監視しており、ラボ ホスティング プロバイダーと協力して、できるだけ早く問題を解決できるように取り組んでいます。**
 
 > **注**:ラボ ホスティング プロバイダーから AllFiles が提供されない場合、学生はリポジトリを同期するように指示されるはずです。 
 
 - ラボでの手順を示した使いやすい一覧について、[https://aka.ms/az204labs](https://aka.ms/az204labs) にアクセスするように **受講者に指示します**。
 - **あなたは MCT ですか?** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
 - **ラボの手順を手動で作成する必要がありますか?** - 手順は、[MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) リポジトリで確認できます 
-- イシュー/PR の進行状況を追跡する[プロジェクト](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/projects/1)を追加しました。
 
 ## <a name="security-issue---february-2022"></a>セキュリティの問題 - 2022 年 2 月
 
@@ -42,7 +41,7 @@ ms.locfileid: "146565022"
 
 - 受講者ハンドブックは四半期ごとに見直し、必要があれば通常の MOC リリースの手順を通して更新します。
 
-## <a name="how-do-i-contribute"></a>貢献するには?
+## <a name="how-do-i-contribute"></a>投稿方法
 
 - すべての MCT は、GitHub repro のコードまたはコンテンツに pull request を送信できます。Microsoft とコース作成者は、必要に応じてコンテンツとラボ コードの変更をトリアージして追加します。
 
