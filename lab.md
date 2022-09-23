@@ -1,32 +1,32 @@
-﻿# ラボ仮想マシンのセットアップ
+# <a name="lab-virtual-machine-setup"></a>ラボ仮想マシンのセットアップ
 
-## インストールされているソフトウェア
+## <a name="installed-software"></a>インストール済みソフトウェア
 
-| ソフトウェア | リンク |
+| ソフトウェア | Link |
 | --- | --- |
 | Windows 10 (ビルド 2004) | <https://www.microsoft.com/software-download/windows10> |
 | Visual Studio Code | <https://code.visualstudio.com> |
-| Visual Studio Code Azure アカウント拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account> |
-| Visual Studio Code Azure Functions 拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions> |
-| Visual Studio Code Azure Resource Manager ツール拡張機能 | <https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools> |
-| Visual Studio Code Azure CLI ツール拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli> |
+| Visual Studio Code 用の Azure Account 拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account> |
+| Visual Studio Code 用の Azure Functions 拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions> |
+| Visual Studio Code 用の Azure Resource Manager 拡張機能 | <https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools> |
+| Visual Studio Code 用の Azure CLI ツール拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli> |
 | Visual Studio Code PowerShell 拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell> |
-| Visual Studio Code C# 拡張 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp> |
+| Visual Studio Code C# 拡張機能 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp> |
 | PowerShell 7 | <https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3> |
-| .NET Core 3.1 SDK | <https://dotnet.microsoft.com/download/dotnet-core/3.1> |
+| .NET 6 SDK | <https://dotnet.microsoft.com/download/dotnet/6.0> |
 | Azure PowerShell | <https://docs.microsoft.com/powershell/azure/install-az-ps> |
 | Azure CLI | <https://docs.microsoft.com/cli/azure/install-azure-cli> |
 | Azure Storage Explorer | <https://azure.microsoft.com/features/storage-explorer> |
 | .NET ツール - HttpRepl | <https://github.com/dotnet/HttpRepl> |
 | Azure Functions Core Tools | <https://docs.microsoft.com/azure/azure-functions/functions-run-local#v3> |
-| Windows Terminal | <https://aka.ms/terminal> |
-| エッジ (Chromium) | <https://www.microsoft.com/edge> |
+| Windows ターミナル | <https://aka.ms/terminal> |
+| Edge (Chromium) | <https://www.microsoft.com/edge> |
 
-## その他の構成
+## <a name="additional-configuration"></a>その他の構成
 
 - ClearType を有効にする
   
-- Microsoft Edge を既定のブラウザーとして構成する
+- 既定のブラウザーとして Microsoft Edge を構成する
 
 - VSCode 構成を更新する
 
@@ -45,7 +45,7 @@
   }
   ```
 
-- Windows Terminal の構成を更新する
+- Windows ターミナル構成を更新する
 
   ```json
   {
@@ -74,20 +74,20 @@
   }
   ```
 
-- 次のアイコンのみが含まれるようにスタート メニューとタスクバーを構成します。
+- [スタート] メニューとタスクバーは、次のアイコンのみを含むように構成してください。
   - エクスプローラー
   - Edge
-  - Windows Terminal
+  - Windows ターミナル
   - Visual Studio Code
   - Azure Storage Explorer
 
-- PowerShell 7 の更新通知を無効にする
+- PowerShell 7 更新通知を無効にする
 
-  1. ``POWERSHELL_UPDATECHECK`` [という名前の[環境変数を作成する](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_update_notifications?view=powershell-7)
+  1. ``POWERSHELL_UPDATECHECK`` という名前の[環境変数を作成する](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_update_notifications?view=powershell-7)
   
-  1. 環境変数の値を「オフ」に設定する (大文字と小文字を区別します)
+  1. 環境変数の値を ``Off`` に設定する (大文字と小文字は区別される)
 
-- Azure Functions Core Tools を少なくとも 1 回実行して、Windows ファイアウォールを構成する
+- Windows ファイアウォールを構成するために Azure Functions Core Tools を少なくとも 1 回実行する
 
   ```bash
   func init test --worker-runtime dotnet
