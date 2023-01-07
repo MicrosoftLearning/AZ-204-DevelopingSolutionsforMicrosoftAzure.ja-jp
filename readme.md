@@ -1,18 +1,10 @@
----
-ms.openlocfilehash: 9ba844d4c78c396a669ae0499a7bc1d98aeb72b2
-ms.sourcegitcommit: 72f4872bf8c3288482a766f6b2482d2dbeeb39cf
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "147541884"
----
 # <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204: Microsoft Azure 向けのソリューションの開発
 
 **ラボの指示、ダウンロード可能なコード、VM は 2022 年 8 月 5 日に .NET 6 に更新されました。Microsoft は、この更新プログラムに関連する問題を監視しており、ラボ ホスティング プロバイダーと協力して、できるだけ早く問題を解決できるように取り組んでいます。**
 
 > **注**:ラボ ホスティング プロバイダーから AllFiles が提供されない場合、学生はリポジトリを同期するように指示されるはずです。 
 
-- ラボでの手順を示した使いやすい一覧について、[https://aka.ms/az204labs](https://aka.ms/az204labs) にアクセスするように **受講者に指示します**。
+- ラボでの手順を示した使いやすい一覧について、[https://aka.ms/az204labs](https://aka.ms/az204labs) にアクセスするように**受講者に指示します**。
 - **あなたは MCT ですか?** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
 - **ラボの手順を手動で作成する必要がありますか?** - 手順は、[MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) リポジトリで確認できます 
 
@@ -35,13 +27,13 @@ ms.locfileid: "147541884"
 
 - GitHub 上のこれらのファイルは学生ハンドブックと組み合わせて使用するように設計されています。ただし、中央リポジトリとして GitHub 内にあるので、MCT とコース作成者が最新のラボ ファイルの共有ソースを持っている可能性があります。
 
-- すべての配信について、トレーナーは最新の Azure サービスをサポートするために行われた可能性がある変更を GitHub で確認し、配信用の最新のファイルを取得することをお勧めします。
+- 講師は、ラボを行うたびに、最新の Azure サービスに合わせて修正された個所がないか GitHub を確認し、最新のラボ用ファイルを取得してください。
 
 ## <a name="what-about-changes-to-the-student-handbook"></a>受講者ハンドブックの変更については?
 
 - 受講者ハンドブックは四半期ごとに見直し、必要があれば通常の MOC リリースの手順を通して更新します。
 
-## <a name="how-do-i-contribute"></a>投稿方法
+## <a name="how-do-i-contribute"></a>貢献するには?
 
 - すべての MCT は、GitHub repro のコードまたはコンテンツに pull request を送信できます。Microsoft とコース作成者は、必要に応じてコンテンツとラボ コードの変更をトリアージして追加します。
 
